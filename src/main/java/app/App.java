@@ -5,4 +5,5 @@ public class App {
         System.out.println("Hello world");
     }
     int sqrt(int x) { return  x*x; }
+    int sum(int x, int y) { return x+y; }
 }
