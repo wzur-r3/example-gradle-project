@@ -28,6 +28,6 @@ class AppTest {
     @Test
     @DisplayName("x * x")
     void sqrt() {
-        assertEquals(4. app.sqrt(2));
+        assertEquals(4, app.sqrt(2));
     }
 }
