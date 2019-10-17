@@ -30,4 +30,10 @@ class AppTest {
     void sqrt() {
         assertEquals(4, app.sqrt(2));
     }
+
+    @Test
+    @DisplayName("x + y")
+    void sum() {
+        assertEquals(4, app.sum(1,3));
+    }
 }
