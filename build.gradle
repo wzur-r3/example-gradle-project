@@ -18,3 +18,7 @@ test {
         events "passed", "skipped", "failed"
     }
 }
+
+jar {
+    archiveBaseName = 'libapp'
+}
