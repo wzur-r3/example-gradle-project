@@ -6,4 +6,5 @@ public class App {
     }
     int sqrt(int x) { return  x*x; }
     int sum(int x, int y) { return x+y; }
+    int min(int x, int y) { return x-y; }
 }

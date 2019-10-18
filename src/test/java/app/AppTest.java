@@ -36,4 +36,10 @@ class AppTest {
     void sum() {
         assertEquals(4, app.sum(1,3));
     }
+
+    @Test
+    @DisplayName("x - y")
+    void min() {
+        assertEquals(1, app.min(4, 3));
+    }
 }
